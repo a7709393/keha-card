@@ -1,0 +1,557 @@
+{
+  "type": "flex",
+  "altText": "Keh'a 林淙仁 Leslie Lin 電子名片",
+  "contents": {
+    "type": "carousel",
+    "contents": [
+      {
+        "type": "bubble",
+        "size": "mega",
+        "hero": {
+          "type": "image",
+          "url": "https://files.catbox.moe/wv3yex.jpg",
+          "size": "full",
+          "aspectRatio": "3:4",
+          "aspectMode": "cover"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "paddingAll": "20px",
+          "contents": [
+            {
+              "type": "text",
+              "size": "xs",
+              "contents": [
+                {
+                  "type": "span",
+                  "text": "Keh'a 收納美學",
+                  "color": "#888888"
+                },
+                {
+                  "type": "span",
+                  "text": "｜",
+                  "color": "#CCCCCC"
+                },
+                {
+                  "type": "span",
+                  "text": "SHINYUE DESIGN",
+                  "color": "#888888"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "林淙仁 Leslie Lin",
+              "size": "xxl",
+              "weight": "bold",
+              "color": "#111111",
+              "margin": "sm"
+            },
+            {
+              "type": "text",
+              "size": "sm",
+              "margin": "xs",
+              "contents": [
+                {
+                  "type": "span",
+                  "text": "Operating Director",
+                  "color": "#888888"
+                },
+                {
+                  "type": "span",
+                  "text": "｜",
+                  "color": "#CCCCCC"
+                },
+                {
+                  "type": "span",
+                  "text": "營運總監",
+                  "color": "#888888"
+                }
+              ]
+            },
+            {
+              "type": "separator",
+              "margin": "xl",
+              "color": "#EEEEEE"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "margin": "xl",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "action": {
+                    "type": "uri",
+                    "label": "撥打手機",
+                    "uri": "tel:+886933118801"
+                  },
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "M",
+                      "size": "sm",
+                      "color": "#B7B7B7",
+                      "flex": 1
+                    },
+                    {
+                      "type": "text",
+                      "text": "+886-933-118-801",
+                      "size": "sm",
+                      "color": "#333333",
+                      "flex": 9
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "action": {
+                    "type": "uri",
+                    "label": "撥打公司電話",
+                    "uri": "tel:+886426624237"
+                  },
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "T",
+                      "size": "sm",
+                      "color": "#B7B7B7",
+                      "flex": 1
+                    },
+                    {
+                      "type": "text",
+                      "text": "+886-4-2662-4237",
+                      "size": "sm",
+                      "color": "#333333",
+                      "flex": 9
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "action": {
+                    "type": "uri",
+                    "label": "寄送Email",
+                    "uri": "mailto:Leslie@keh-a.com"
+                  },
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "E",
+                      "size": "sm",
+                      "color": "#B7B7B7",
+                      "flex": 1
+                    },
+                    {
+                      "type": "text",
+                      "text": "Leslie@keh-a.com",
+                      "size": "sm",
+                      "color": "#333333",
+                      "flex": 9
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "action": {
+                    "type": "uri",
+                    "label": "開啟官網",
+                    "uri": "https://www.keh-a.com"
+                  },
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "W",
+                      "size": "sm",
+                      "color": "#B7B7B7",
+                      "flex": 1
+                    },
+                    {
+                      "type": "text",
+                      "text": "www.keh-a.com",
+                      "size": "sm",
+                      "color": "#333333",
+                      "flex": 9
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "台中市東區東英十七街163號",
+                  "size": "sm",
+                  "color": "#333333",
+                  "wrap": true,
+                  "margin": "md"
+                },
+                {
+                  "type": "text",
+                  "text": "鑫月設計股份有限公司｜統編 90314143",
+                  "size": "xs",
+                  "color": "#AAAAAA",
+                  "wrap": true
+                }
+              ]
+            }
+          ]
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "sm",
+          "paddingAll": "20px",
+          "paddingTop": "0px",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "vertical",
+              "backgroundColor": "#111111",
+              "cornerRadius": "6px",
+              "paddingAll": "13px",
+              "action": {
+                "type": "uri",
+                "label": "分享此名片",
+                "uri": "https://line.me/R/share?text=Keh%27a%20%E9%91%AB%E6%9C%88%E8%A8%AD%E8%A8%88%EF%BD%9C%E6%9E%97%E6%B7%99%E4%BB%81%20Leslie%20Lin%0A%E7%87%9F%E9%81%8B%E7%B8%BD%E7%9B%A3%20Operating%20Director%0A%E9%9B%BB%E8%A9%B1%EF%BC%9A0933-118-801%0A%E4%BF%A1%E7%AE%B1%EF%BC%9ALeslie%40keh-a.com%0A%E5%AE%98%E7%B6%B2%EF%BC%9Ahttps%3A//www.keh-a.com%0A%E5%9C%B0%E5%9D%80%EF%BC%9A%E5%8F%B0%E4%B8%AD%E5%B8%82%E6%9D%B1%E5%8D%80%E6%9D%B1%E8%8B%B1%E5%8D%81%E4%B8%83%E8%A1%97163%E8%99%9F"
+              },
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "分享此名片",
+                  "align": "center",
+                  "size": "sm",
+                  "color": "#FFFFFF"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "backgroundColor": "#111111",
+              "cornerRadius": "6px",
+              "paddingAll": "13px",
+              "action": {
+                "type": "uri",
+                "label": "撥打電話",
+                "uri": "tel:+886933118801"
+              },
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "撥打電話",
+                  "align": "center",
+                  "size": "sm",
+                  "color": "#FFFFFF"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "backgroundColor": "#111111",
+                  "cornerRadius": "6px",
+                  "paddingAll": "13px",
+                  "action": {
+                    "type": "uri",
+                    "label": "官方網站",
+                    "uri": "https://www.keh-a.com"
+                  },
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "官方網站",
+                      "align": "center",
+                      "size": "sm",
+                      "color": "#FFFFFF"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "backgroundColor": "#111111",
+                  "cornerRadius": "6px",
+                  "paddingAll": "13px",
+                  "action": {
+                    "type": "uri",
+                    "label": "寄送Email",
+                    "uri": "mailto:Leslie@keh-a.com"
+                  },
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "寄送 Email",
+                      "align": "center",
+                      "size": "sm",
+                      "color": "#FFFFFF"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "borderWidth": "1px",
+                  "borderColor": "#E3E3E3",
+                  "cornerRadius": "6px",
+                  "paddingAll": "13px",
+                  "action": {
+                    "type": "uri",
+                    "label": "Facebook",
+                    "uri": "https://www.facebook.com/share/1ADVQMYfLK/?mibextid=wwXIfr"
+                  },
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "Facebook",
+                      "align": "center",
+                      "size": "sm",
+                      "color": "#111111"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "borderWidth": "1px",
+                  "borderColor": "#E3E3E3",
+                  "cornerRadius": "6px",
+                  "paddingAll": "13px",
+                  "action": {
+                    "type": "uri",
+                    "label": "Instagram",
+                    "uri": "https://www.instagram.com/keha_shinyue"
+                  },
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "Instagram",
+                      "align": "center",
+                      "size": "sm",
+                      "color": "#111111"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "borderWidth": "1px",
+              "borderColor": "#E3E3E3",
+              "cornerRadius": "6px",
+              "paddingAll": "13px",
+              "action": {
+                "type": "uri",
+                "label": "地圖導航",
+                "uri": "https://www.google.com/maps/search/?api=1&query=%E5%8F%B0%E4%B8%AD%E5%B8%82%E6%9D%B1%E5%8D%80%E6%9D%B1%E8%8B%B1%E5%8D%81%E4%B8%83%E8%A1%97163%E8%99%9F"
+              },
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "地圖導航",
+                  "align": "center",
+                  "size": "sm",
+                  "color": "#111111"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "mega",
+        "hero": {
+          "type": "image",
+          "url": "https://files.catbox.moe/0x2elp.jpg",
+          "size": "full",
+          "aspectRatio": "3:4",
+          "aspectMode": "cover",
+          "action": {
+            "type": "uri",
+            "label": "瀏覽官網",
+            "uri": "https://www.keh-a.com"
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "paddingAll": "20px",
+          "contents": [
+            {
+              "type": "text",
+              "size": "xs",
+              "contents": [
+                {
+                  "type": "span",
+                  "text": "居家收納",
+                  "color": "#888888"
+                },
+                {
+                  "type": "span",
+                  "text": "｜",
+                  "color": "#CCCCCC"
+                },
+                {
+                  "type": "span",
+                  "text": "商業空間",
+                  "color": "#888888"
+                },
+                {
+                  "type": "span",
+                  "text": "｜",
+                  "color": "#CCCCCC"
+                },
+                {
+                  "type": "span",
+                  "text": "壁掛櫃架系統",
+                  "color": "#888888"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "精選作品",
+              "size": "xxl",
+              "weight": "bold",
+              "color": "#111111",
+              "margin": "sm"
+            },
+            {
+              "type": "text",
+              "size": "sm",
+              "margin": "xs",
+              "contents": [
+                {
+                  "type": "span",
+                  "text": "Stylish Storage",
+                  "color": "#888888"
+                },
+                {
+                  "type": "span",
+                  "text": "｜",
+                  "color": "#CCCCCC"
+                },
+                {
+                  "type": "span",
+                  "text": "Wall Storage System",
+                  "color": "#888888"
+                }
+              ]
+            },
+            {
+              "type": "separator",
+              "margin": "xl",
+              "color": "#EEEEEE"
+            },
+            {
+              "type": "text",
+              "text": "不只是櫃架，讓收納也能秀生活。",
+              "size": "sm",
+              "color": "#333333",
+              "wrap": true,
+              "margin": "xl"
+            }
+          ]
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "sm",
+          "paddingAll": "20px",
+          "paddingTop": "0px",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "vertical",
+              "backgroundColor": "#111111",
+              "cornerRadius": "6px",
+              "paddingAll": "13px",
+              "action": {
+                "type": "uri",
+                "label": "瀏覽更多作品",
+                "uri": "https://www.keh-a.com"
+              },
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "瀏覽更多作品",
+                  "align": "center",
+                  "size": "sm",
+                  "color": "#FFFFFF"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "borderWidth": "1px",
+                  "borderColor": "#E3E3E3",
+                  "cornerRadius": "6px",
+                  "paddingAll": "13px",
+                  "action": {
+                    "type": "uri",
+                    "label": "Facebook",
+                    "uri": "https://www.facebook.com/share/1ADVQMYfLK/?mibextid=wwXIfr"
+                  },
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "Facebook",
+                      "align": "center",
+                      "size": "sm",
+                      "color": "#111111"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "borderWidth": "1px",
+                  "borderColor": "#E3E3E3",
+                  "cornerRadius": "6px",
+                  "paddingAll": "13px",
+                  "action": {
+                    "type": "uri",
+                    "label": "Instagram",
+                    "uri": "https://www.instagram.com/keha_shinyue"
+                  },
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "Instagram",
+                      "align": "center",
+                      "size": "sm",
+                      "color": "#111111"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

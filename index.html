@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>分享 Keh'a 電子名片</title>
+<script src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+<style>
+  body { margin: 0; font-family: -apple-system, "Helvetica Neue", "PingFang TC", "Microsoft JhengHei", sans-serif; background: #F4D523; display: flex; align-items: center; justify-content: center; min-height: 100vh; }
+  .card { background: #FFFFFF; border-radius: 16px; padding: 32px 28px; max-width: 320px; text-align: center; box-shadow: 0 4px 24px rgba(0,0,0,.12); }
+  h1 { font-size: 20px; margin: 0 0 6px; color: #111111; }
+  p { font-size: 14px; color: #666666; margin: 0 0 4px; line-height: 1.6; }
+  #msg { font-weight: bold; color: #111111; margin-top: 14px; }
+  button { margin-top: 16px; background: #111111; color: #FFFFFF; border: 0; border-radius: 8px; padding: 12px 28px; font-size: 15px; cursor: pointer; }
+</style>
+</head>
+<body>
+<div class="card">
+  <h1>Keh'a 電子名片</h1>
+  <p>林淙仁 Leslie Lin｜鑫月設計</p>
+  <p id="msg">準備分享…</p>
+  <button id="retry" style="display:none">重新分享</button>
+</div>
+<script>
+const LIFF_ID = 'REPLACE_LIFF_ID';
+const msg = document.getElementById('msg');
+const retry = document.getElementById('retry');
+
+async function share() {
+  retry.style.display = 'none';
+  try {
+    const res = await fetch('./flex.json?v=' + Date.now());
+    const flexMessage = await res.json();
+    if (!liff.isApiAvailable('shareTargetPicker')) {
+      msg.textContent = '請改用手機在 LINE 聊天室中開啟此連結';
+      return;
+    }
+    const result = await liff.shareTargetPicker([flexMessage]);
+    if (result) {
+      msg.textContent = '已成功分享名片 ✓';
+      setTimeout(() => liff.closeWindow(), 1200);
+    } else {
+      msg.textContent = '已取消分享';
+      retry.style.display = 'inline-block';
+    }
+  } catch (e) {
+    msg.textContent = '分享失敗：' + (e.message || e);
+    retry.style.display = 'inline-block';
+  }
+}
+
+retry.addEventListener('click', share);
+
+liff.init({ liffId: LIFF_ID })
+  .then(() => {
+    if (!liff.isLoggedIn()) {
+      liff.login({ redirectUri: location.href });
+      return;
+    }
+    share();
+  })
+  .catch(e => { msg.textContent = '初始化失敗：' + (e.message || e); });
+</script>
+</body>
+</html>
